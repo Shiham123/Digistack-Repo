@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.chooseUs {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.chooseUs__leftSide {
+  grid-column: span 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.chooseUs__leftSide__one {
+  border: 1px solid red;
+}
+.chooseUs__leftSide__two {
+  border: 1px solid yellow;
+}
+.chooseUs__rightSide {
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}/*# sourceMappingURL=style.css.map */
