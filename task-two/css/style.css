@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #0e2334;
+  --secondary-color: #d81f48;
+}
+
 .container {
   width: 100%;
   max-width: 1500px;
@@ -15,13 +20,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 .chooseUs__leftSide__one {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.chooseUs__leftSide__two {
-  border: 1px solid yellow;
+.chooseUs__leftSide__one__content {
+  background-color: var(--primary-color);
+  width: 100%;
 }
 .chooseUs__rightSide {
   grid-column: span 6;
